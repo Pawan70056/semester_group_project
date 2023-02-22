@@ -1,6 +1,6 @@
 from tkinter import *
 from PIL import Image, ImageTk
-from main_interface import recordframe01, recordframe02, recordframe03, recordframe04, recordframe05, TableFrame
+from main_interface import recordframe01, recordframe02, recordframe03, recordframe04, recordframe05, TableFrame, dash_frame, EntryFrame, resultframe, ButtonFrame
 def Gallery():
     recordframe01.destroy()
     recordframe02.destroy()
@@ -8,6 +8,10 @@ def Gallery():
     recordframe04.destroy()
     recordframe05.destroy()
     TableFrame.config(text="", bg="red")
+    dash_frame.destroy()
+    EntryFrame.destroy()
+    resultframe.destroy()
+    ButtonFrame.destroy()
 
   
     image_dict = {
